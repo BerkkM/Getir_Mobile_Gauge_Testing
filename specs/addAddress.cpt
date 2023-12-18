@@ -1,0 +1,19 @@
+Created by berko on 18/12/2023
+
+This is a concept file with following syntax for each concept.
+# Add Address
+* Click on the Adreslerim Button
+* Wait for "3" seconds
+* Click on the Add Address Button
+* Wait for "3" seconds
+* Click on the Address Search EditText
+* Wait for "3" seconds
+* Type "izmit" in the Address Search EditText
+* Wait for "6" seconds
+* Click on a Random Element in the Address Search Results
+* Wait for "6" seconds
+* Click on the Sample Button
+* Wait for "3" seconds
+* Click on Element 5
+* Click on the Address Detail Submit Button
+

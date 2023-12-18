@@ -1,0 +1,86 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+SLF4J: A number (12) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 877milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 877"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 65152"}
+{"logLevel":"info","message":"Listening on port:65152"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.loginPermission' and 'org.example.StepImplementation.loginPermission'"}
+{"logLevel":"debug","message":"Found Open the Getir application in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tOpen the Getir application : public void loginPermission()"}
+....Android baslatildi....
+Dec 15, 2023 10:02:12 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Open the Getir application' using 'class org.example.StepImplementation.loginPermission"}
+22:02:12.306 [pool-2-thread-1] ERROR org.example.StepImplementation - Tıklama sırasında hata oluştu
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.mobisoft.kitapyurdu.mai..., appPackage: com.mobisoft.kitapyurdu, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.mobisoft.kitapyurdu.mai..., appPackage: com.mobisoft.kitapyurdu, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 59f93041-52ba-4997-bdda-44e9cd76d70f
+*** Element info: {Using=id, value=com.mobisoft.kitapyurdu:id/tab_account}
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:69) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.By$ById.findElement(By.java:188) ~[selenium-api-3.141.59.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638) ~[selenium-support-3.141.59.jar:?]
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249) ~[selenium-support-3.141.59.jar:?]
+	at org.example.methods.Methods.waitForElementToBeClickable(Methods.java:40) ~[test-classes/:?]
+	at org.example.StepImplementation.loginPermission(StepImplementation.java:27) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+...Test bitti...
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

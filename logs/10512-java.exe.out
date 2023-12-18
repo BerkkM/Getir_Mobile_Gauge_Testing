@@ -1,0 +1,1176 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+SLF4J: A number (12) of logging calls during the initialization phase have been intercepted and are
+SLF4J: now being replayed. These are subject to the filtering rules of the underlying logging system.
+SLF4J: See also http://www.slf4j.org/codes.html#replay
+{"logLevel":"debug","message":"gauge-java took 957milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 957"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 50344"}
+{"logLevel":"info","message":"Listening on port:50344"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickAdreslerimButton' and 'org.example.StepImplementation.clickAdreslerimButton'"}
+{"logLevel":"debug","message":"Found Click on the Adreslerim Button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickAddAddressButton' and 'org.example.StepImplementation.clickAddAddressButton'"}
+{"logLevel":"debug","message":"Found Click on the Add Address Button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickAddressSearchEditText' and 'org.example.StepImplementation.clickAddressSearchEditText'"}
+{"logLevel":"debug","message":"Found Click on the Address Search EditText in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickRandomElementInAddressSearchResults' and 'org.example.StepImplementation.clickRandomElementInAddressSearchResults'"}
+{"logLevel":"debug","message":"Found Click on a Random Element in the Address Search Results in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickGetStartedButton' and 'org.example.StepImplementation.clickGetStartedButton'"}
+{"logLevel":"debug","message":"Found Click on the Get Started button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.loginPermission' and 'org.example.StepImplementation.loginPermission'"}
+{"logLevel":"debug","message":"Found Open the Getir application in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.typeTextInAddressSearchEditText' and 'org.example.StepImplementation.typeTextInAddressSearchEditText'"}
+{"logLevel":"debug","message":"Found Type {} in the Address Search EditText in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickNewGetirIcon' and 'org.example.StepImplementation.clickNewGetirIcon'"}
+{"logLevel":"debug","message":"Found Click on the New Getir Icon in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickTurkishButton' and 'org.example.StepImplementation.clickTurkishButton'"}
+{"logLevel":"debug","message":"Found Click on the Turkish button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.waitForSeconds' and 'org.example.StepImplementation.waitForSeconds'"}
+{"logLevel":"debug","message":"Found Wait for {} seconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickContinueAsGuestButton' and 'org.example.StepImplementation.clickContinueAsGuestButton'"}
+{"logLevel":"debug","message":"Found Click on the Continue as Guest button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickTurkishProfileButton' and 'org.example.StepImplementation.clickTurkishProfileButton'"}
+{"logLevel":"debug","message":"Found Click on the Türkçe Profil in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.isLiveSupportTextVisible' and 'org.example.StepImplementation.isLiveSupportTextVisible'"}
+{"logLevel":"debug","message":"Found Is the Canli Destek text visible? in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickLanguageButton' and 'org.example.StepImplementation.clickLanguageButton'"}
+{"logLevel":"debug","message":"Found Click on the language button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickProfileIcon' and 'org.example.StepImplementation.clickProfileIcon'"}
+{"logLevel":"debug","message":"Found Click on profile icon in current project scope."}
+{"logLevel":"debug","message":"Comparing 'org.example.StepImplementation.clickByCoordinates' and 'org.example.StepImplementation.clickByCoordinates'"}
+{"logLevel":"debug","message":"Found Click on coordinates X: {}, Y: {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tClick on the Get Started button : public void clickGetStartedButton()"}
+{"logLevel":"debug","message":"\tType {} in the Address Search EditText : public void typeTextInAddressSearchEditText(String text)"}
+{"logLevel":"debug","message":"\tClick on profile icon : public void clickProfileIcon()"}
+{"logLevel":"debug","message":"\tWait for {} seconds : public void waitForSeconds(ýnt duration)"}
+{"logLevel":"debug","message":"\tClick on the New Getir Icon : public void clickNewGetirIcon()"}
+{"logLevel":"debug","message":"\tClick on the Add Address Button : public void clickAddAddressButton()"}
+{"logLevel":"debug","message":"\tIs the Canli Destek text visible? : public void isLiveSupportTextVisible()"}
+{"logLevel":"debug","message":"\tOpen the Getir application : public void loginPermission()"}
+{"logLevel":"debug","message":"\tClick on the Continue as Guest button : public void clickContinueAsGuestButton()"}
+{"logLevel":"debug","message":"\tClick on the Türkçe Profil : public void clickTurkishProfileButton()"}
+{"logLevel":"debug","message":"\tClick on a Random Element in the Address Search Results : public void clickRandomElementInAddressSearchResults()"}
+{"logLevel":"debug","message":"\tClick on coordinates X: {}, Y: {} : public void clickByCoordinates(ýnt x, ýnt y)"}
+{"logLevel":"debug","message":"\tClick on the Adreslerim Button : public void clickAdreslerimButton()"}
+{"logLevel":"debug","message":"\tClick on the Address Search EditText : public void clickAddressSearchEditText()"}
+{"logLevel":"debug","message":"\tClick on the Turkish button : public void clickTurkishButton()"}
+{"logLevel":"debug","message":"\tClick on the language button : public void clickLanguageButton()"}
+....Android baslatildi....
+Dec 19, 2023 1:23:22 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing 'Open the Getir application' using 'class org.example.StepImplementation.loginPermission"}
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class org.example.StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Click on the Get Started button' using 'class org.example.StepImplementation.clickGetStartedButton"}
+01:23:29.589 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElement(Methods.java:41) ~[test-classes/:?]
+	at org.example.methods.Methods.findElementBykey(Methods.java:64) ~[test-classes/:?]
+	at org.example.methods.Methods.click(Methods.java:83) ~[test-classes/:?]
+	at org.example.StepImplementation.clickGetStartedButton(StepImplementation.java:46) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+01:23:29.616 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElementBykey(Methods.java:66) ~[test-classes/:?]
+	at org.example.methods.Methods.click(Methods.java:83) ~[test-classes/:?]
+	at org.example.StepImplementation.clickGetStartedButton(StepImplementation.java:46) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class org.example.StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Click on the Continue as Guest button' using 'class org.example.StepImplementation.clickContinueAsGuestButton"}
+01:23:33.860 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElement(Methods.java:41) ~[test-classes/:?]
+	at org.example.methods.Methods.findElementBykey(Methods.java:64) ~[test-classes/:?]
+	at org.example.methods.Methods.click(Methods.java:83) ~[test-classes/:?]
+	at org.example.StepImplementation.clickContinueAsGuestButton(StepImplementation.java:58) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+01:23:33.875 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElementBykey(Methods.java:66) ~[test-classes/:?]
+	at org.example.methods.Methods.click(Methods.java:83) ~[test-classes/:?]
+	at org.example.StepImplementation.clickContinueAsGuestButton(StepImplementation.java:58) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class org.example.StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Click on the New Getir Icon' using 'class org.example.StepImplementation.clickNewGetirIcon"}
+01:23:38.296 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElement(Methods.java:41) ~[test-classes/:?]
+	at org.example.methods.Methods.findElementBykey(Methods.java:62) ~[test-classes/:?]
+	at org.example.methods.Methods.click(Methods.java:83) ~[test-classes/:?]
+	at org.example.StepImplementation.clickNewGetirIcon(StepImplementation.java:69) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+01:23:38.311 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElementBykey(Methods.java:66) ~[test-classes/:?]
+	at org.example.methods.Methods.click(Methods.java:83) ~[test-classes/:?]
+	at org.example.StepImplementation.clickNewGetirIcon(StepImplementation.java:69) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class org.example.StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Click on coordinates X: {}, Y: {}' using 'class org.example.StepImplementation.clickByCoordinates"}
+01:23:42.737 [pool-2-thread-1] ERROR org.example.StepImplementation - Error while clicking on coordinates
+org.openqa.selenium.InvalidElementStateException: Tap at [x=100.0, y=200.0] has failed
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.PerformsTouchActions.performTouchAction(PerformsTouchActions.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.TouchAction.perform(TouchAction.java:187) ~[java-client-7.3.0.jar:?]
+	at org.example.methods.Methods.clickByCoordinates(Methods.java:116) ~[test-classes/:?]
+	at org.example.StepImplementation.clickByCoordinates(StepImplementation.java:79) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class org.example.StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Click on profile icon' using 'class org.example.StepImplementation.clickProfileIcon"}
+01:23:44.833 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElement(Methods.java:41) ~[test-classes/:?]
+	at org.example.methods.Methods.findElementBykey(Methods.java:62) ~[test-classes/:?]
+	at org.example.methods.Methods.click(Methods.java:83) ~[test-classes/:?]
+	at org.example.StepImplementation.clickProfileIcon(StepImplementation.java:88) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+01:23:44.848 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElementBykey(Methods.java:66) ~[test-classes/:?]
+	at org.example.methods.Methods.click(Methods.java:83) ~[test-classes/:?]
+	at org.example.StepImplementation.clickProfileIcon(StepImplementation.java:88) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class org.example.StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Click on the language button' using 'class org.example.StepImplementation.clickLanguageButton"}
+01:23:47.090 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElement(Methods.java:41) ~[test-classes/:?]
+	at org.example.methods.Methods.findElementBykey(Methods.java:62) ~[test-classes/:?]
+	at org.example.methods.Methods.click(Methods.java:83) ~[test-classes/:?]
+	at org.example.StepImplementation.clickLanguageButton(StepImplementation.java:98) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+01:23:47.105 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElementBykey(Methods.java:66) ~[test-classes/:?]
+	at org.example.methods.Methods.click(Methods.java:83) ~[test-classes/:?]
+	at org.example.StepImplementation.clickLanguageButton(StepImplementation.java:98) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class org.example.StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Click on the Turkish button' using 'class org.example.StepImplementation.clickTurkishButton"}
+01:23:49.258 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElement(Methods.java:41) ~[test-classes/:?]
+	at org.example.methods.Methods.findElementBykey(Methods.java:62) ~[test-classes/:?]
+	at org.example.methods.Methods.click(Methods.java:83) ~[test-classes/:?]
+	at org.example.StepImplementation.clickTurkishButton(StepImplementation.java:108) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+01:23:49.274 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElementBykey(Methods.java:66) ~[test-classes/:?]
+	at org.example.methods.Methods.click(Methods.java:83) ~[test-classes/:?]
+	at org.example.StepImplementation.clickTurkishButton(StepImplementation.java:108) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class org.example.StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Click on the New Getir Icon' using 'class org.example.StepImplementation.clickNewGetirIcon"}
+01:23:56.544 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElement(Methods.java:41) ~[test-classes/:?]
+	at org.example.methods.Methods.findElementBykey(Methods.java:62) ~[test-classes/:?]
+	at org.example.methods.Methods.click(Methods.java:83) ~[test-classes/:?]
+	at org.example.StepImplementation.clickNewGetirIcon(StepImplementation.java:69) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+01:23:56.559 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElementBykey(Methods.java:66) ~[test-classes/:?]
+	at org.example.methods.Methods.click(Methods.java:83) ~[test-classes/:?]
+	at org.example.StepImplementation.clickNewGetirIcon(StepImplementation.java:69) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class org.example.StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Click on coordinates X: {}, Y: {}' using 'class org.example.StepImplementation.clickByCoordinates"}
+01:24:00.964 [pool-2-thread-1] ERROR org.example.StepImplementation - Error while clicking on coordinates
+org.openqa.selenium.InvalidElementStateException: Tap at [x=100.0, y=200.0] has failed
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.PerformsTouchActions.performTouchAction(PerformsTouchActions.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.TouchAction.perform(TouchAction.java:187) ~[java-client-7.3.0.jar:?]
+	at org.example.methods.Methods.clickByCoordinates(Methods.java:116) ~[test-classes/:?]
+	at org.example.StepImplementation.clickByCoordinates(StepImplementation.java:79) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class org.example.StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Click on the Türkçe Profil' using 'class org.example.StepImplementation.clickTurkishProfileButton"}
+01:24:04.071 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElement(Methods.java:41) ~[test-classes/:?]
+	at org.example.methods.Methods.findElementBykey(Methods.java:62) ~[test-classes/:?]
+	at org.example.methods.Methods.click(Methods.java:83) ~[test-classes/:?]
+	at org.example.StepImplementation.clickTurkishProfileButton(StepImplementation.java:118) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+01:24:04.086 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElementBykey(Methods.java:66) ~[test-classes/:?]
+	at org.example.methods.Methods.click(Methods.java:83) ~[test-classes/:?]
+	at org.example.StepImplementation.clickTurkishProfileButton(StepImplementation.java:118) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class org.example.StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Is the Canli Destek text visible?' using 'class org.example.StepImplementation.isLiveSupportTextVisible"}
+01:24:07.233 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElement(Methods.java:41) ~[test-classes/:?]
+	at org.example.methods.Methods.isLiveSupportTextVisible(Methods.java:122) ~[test-classes/:?]
+	at org.example.StepImplementation.isLiveSupportTextVisible(StepImplementation.java:127) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+{"logLevel":"debug","message":"Executing 'Click on the Adreslerim Button' using 'class org.example.StepImplementation.clickAdreslerimButton"}
+01:24:07.326 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElement(Methods.java:41) ~[test-classes/:?]
+	at org.example.methods.Methods.findElementBykey(Methods.java:62) ~[test-classes/:?]
+	at org.example.methods.Methods.click(Methods.java:83) ~[test-classes/:?]
+	at org.example.StepImplementation.clickAdreslerimButton(StepImplementation.java:141) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+01:24:07.341 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElementBykey(Methods.java:66) ~[test-classes/:?]
+	at org.example.methods.Methods.click(Methods.java:83) ~[test-classes/:?]
+	at org.example.StepImplementation.clickAdreslerimButton(StepImplementation.java:141) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class org.example.StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Click on the Add Address Button' using 'class org.example.StepImplementation.clickAddAddressButton"}
+01:24:10.475 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElement(Methods.java:41) ~[test-classes/:?]
+	at org.example.methods.Methods.findElementBykey(Methods.java:62) ~[test-classes/:?]
+	at org.example.methods.Methods.click(Methods.java:83) ~[test-classes/:?]
+	at org.example.StepImplementation.clickAddAddressButton(StepImplementation.java:150) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+01:24:10.490 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElementBykey(Methods.java:66) ~[test-classes/:?]
+	at org.example.methods.Methods.click(Methods.java:83) ~[test-classes/:?]
+	at org.example.StepImplementation.clickAddAddressButton(StepImplementation.java:150) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class org.example.StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Click on the Address Search EditText' using 'class org.example.StepImplementation.clickAddressSearchEditText"}
+01:24:13.608 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElement(Methods.java:41) ~[test-classes/:?]
+	at org.example.methods.Methods.findElementBykey(Methods.java:64) ~[test-classes/:?]
+	at org.example.methods.Methods.click(Methods.java:83) ~[test-classes/:?]
+	at org.example.StepImplementation.clickAddressSearchEditText(StepImplementation.java:159) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+01:24:13.625 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElementBykey(Methods.java:66) ~[test-classes/:?]
+	at org.example.methods.Methods.click(Methods.java:83) ~[test-classes/:?]
+	at org.example.StepImplementation.clickAddressSearchEditText(StepImplementation.java:159) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class org.example.StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Type {} in the Address Search EditText' using 'class org.example.StepImplementation.typeTextInAddressSearchEditText"}
+01:24:17.224 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElement(Methods.java:41) ~[test-classes/:?]
+	at org.example.methods.Methods.findElementBykey(Methods.java:64) ~[test-classes/:?]
+	at org.example.methods.Methods.sendKeys(Methods.java:131) ~[test-classes/:?]
+	at org.example.StepImplementation.typeTextInAddressSearchEditText(StepImplementation.java:169) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+01:24:17.239 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.findElementBykey(Methods.java:66) ~[test-classes/:?]
+	at org.example.methods.Methods.sendKeys(Methods.java:131) ~[test-classes/:?]
+	at org.example.StepImplementation.typeTextInAddressSearchEditText(StepImplementation.java:169) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+01:24:17.255 [pool-2-thread-1] ERROR org.example.methods.Methods - Error while highlighting element
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MSI', ip: '192.168.1.45', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, databaseEnabled: false, desired: {appActivity: com.getir.core.feature.spla..., appPackage: com.getir, autoGrantPermissions: true, deviceName: emulator-5554, newCommandTimeout: 3000, platformName: android}, deviceApiLevel: 30, deviceManufacturer: Google, deviceModel: sdk_gphone_x86, deviceName: emulator-5554, deviceScreenDensity: 440, deviceScreenSize: 1080x2280, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 3000, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 135, takesScreenshot: true, viewportRect: {height: 1842, left: 0, top: 135, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7a4fec2d-6ce2-431b-b64a-ac5c553ac2d6
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:484) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.example.methods.Methods.highlightElement(Methods.java:74) ~[test-classes/:?]
+	at org.example.methods.Methods.sendKeys(Methods.java:132) ~[test-classes/:?]
+	at org.example.StepImplementation.typeTextInAddressSearchEditText(StepImplementation.java:169) ~[test-classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:578) ~[?:?]
+	at com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:30) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:66) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:59) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:41) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:14) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:33) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:19) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:44) ~[gauge-java-0.9.1.jar:?]
+	at com.thoughtworks.gauge.RunnerServiceHandler.lambda$executeStep$7(RunnerServiceHandler.java:166) ~[gauge-java-0.9.1.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
+{"logLevel":"debug","message":"Executing 'Wait for {} seconds' using 'class org.example.StepImplementation.waitForSeconds"}
+{"logLevel":"debug","message":"Executing 'Click on a Random Element in the Address Search Results' using 'class org.example.StepImplementation.clickRandomElementInAddressSearchResults"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

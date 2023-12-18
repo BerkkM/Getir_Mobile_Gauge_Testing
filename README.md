@@ -1,0 +1,2 @@
++Open the Getir application
+
